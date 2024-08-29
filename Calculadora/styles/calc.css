@@ -1,0 +1,44 @@
+.geral{
+    width: 300px;
+    margin: 80px auto;
+    background-color: rgb(209, 244, 111);
+    padding: 15px;
+    border: 1px solid black;
+}
+.resultado{
+    height: 60px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    display: grid;
+    place-items: center;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.resultado a{
+    color: indigo;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px;
+}
+.teclado{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+}
+.botao{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    margin-bottom: 15px;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+}
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.botao:active{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}

@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+:root{
+    --cor-primaria: #e3e3b6;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #000000;
+    --cor-hover: #e2e290;
+    
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+    --font-terciaria: 'Lora';
+    --font-quarta: 'Baskervville SC';
+    --font-quinta: 'Bodoni Moda SC';
+}
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    overflow-x: hidden;
+}
+.cabecalho{
+    width: 1124px;
+    margin: 16px auto 120px auto;
+    margin: center;
+}
+.cabecalho_menu_link{
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--font-secundaria);
+}
+.apresentacao{
+    width: 1300px;
+    margin: 0px auto 30px auto;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+}
+.apresentacao_contexto{
+    width: 600px;
+    margin-top: 210px;
+    margin-left: 70px;
+}
+.apresentacao_contexto_texto{
+    margin-top: -800px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    font-family: var(--font-terciaria);
+    font-weight: 500;
+}
+.texto_2{
+    width: 600px;
+    margin-top: 160px;
+    margin-left: 70px;
+}
+.texto_do_2{
+    margin-left: 40px;
+    margin-top: -70px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    font-family: var(--font-terciaria);
+    font-weight: 500;
+}
+.sub-texto2{
+    width: 200px;
+    margin-top: 160px;
+    margin-left: 70px;
+}
+.textosub2{
+    margin-left: 40px;
+    margin-top: -70px;
+    font-size: 24px;
+    line-height: 10px;
+    width: 1000px;
+    text-align: justify;
+    font-family: var(--font-terciaria);
+    font-weight: 100;
+}
+.apresentacao_contexto_titulo{
+    font-size: 30px;
+    color: var(--cor-terciaria);
+    margin-bottom: 40px;
+    font-family: var(--font-primaria);
+}
+.apresentacao_links{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 30px;
+}
+.apresentacao_links_links{
+    border: 2px solid var(--cor-terciaria);
+    padding: 21px 0px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    width: 378px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apresentacao_links_links img{
+    margin-right: 10px;
+}
+.apresentacao_links_subtitulos{
+    margin-top: 75px;
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao_links_links:hover{
+    background-color: var(--cor-hover);
+}
+.ATLETAS{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: var(--font-secundaria);
+    margin-left: 130px;
+}
+.TIMES{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: var(--font-secundaria);
+    margin-left: 70px;
+    font-family: var(borda);
+}
+nav a:hover{
+    color: #e2e290;
+}
+.borda{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(Assets/marginario.png);
+    z-index: -1;
+}
+.logo_olim{
+    position: absolute;
+    top: 5px;
+    left: 150px;
+    background-image: url(Imagens e Videos/logo_olimpi.png);
+    z-index: 1;
+}
+.apresentacao_video{
+    margin-top: -65px;
+    margin-left: 650px;
+    position: relative;
+    z-index: -1;
+}
+.titulo1{
+    width: 2300px;
+    margin: 0px auto 30px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    
+}
+.titulo1_olim{
+    margin-top: -70px;
+    margin-left: 150px;
+}
+.titulo2{
+    width: 5000px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    font-family: var(--font-quinta);
+    font-size: 20px;
+}
+.titulo2_titu{
+    margin-top: 550px;
+    margin-left: 1000px;    
+}
+.titulo1_fonte{
+    font-size: 70px;
+    font-family: var(--font-quinta);
+    color: var(--cor-terciaria);
+}
+.torre{
+    position: absolute;
+    top: 220px;
+    left: 370px;
+    background-image: url(Imagens e Videos/torre eiffel.png);
+    z-index: -1;
+    opacity: 0.5;
+}
+.tocha{
+    position: absolute;
+    top: 400px;
+    left: 1043px;
+    background-image: url(Assets/tocha.png");
+    z-index: -1;
+    opacity: 0.5;
+}
+.ginasio{
+    position: absolute;
+    top: 800px;
+    left: 60px;
+    background-image: url(Assets/olim_ginasio.jpeg);
+    z-index: -1;
+ /* opacity: 0.5; */  
+}
